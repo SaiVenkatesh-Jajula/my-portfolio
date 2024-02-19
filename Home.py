@@ -53,12 +53,20 @@ st.write(content)
 
 #WORK AS SMART ASS- INSTEAD OF NORMAL CODE USING PANDAS
 df = pandas.read_csv("data.csv", sep=',')
-col3, col4 = st.columns(2)
+col3,empty, col4 = st.columns([1.5, 0.5, 1.5])
 
 with col3:
-    for index,content in df[:10].iterrows():
+    for index, content in df[:10].iterrows():
         st.header(content["title"])
+        st.write(content["description"])
+        st.image("images/"+content['image'], width=350)
+        st.write(f"[Source Code]({content['url']})")
+
 with col4:
-    for index,content in df[10:].iterrows():
+    for index, content in df[10:].iterrows():
         st.header(content["title"])
+        st.write(content["description"])
+        st.image("images/"+content['image'], width=350)
+        st.write(f"[Source Code]({content['url']})")
+
 
