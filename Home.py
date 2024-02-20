@@ -10,7 +10,7 @@ with col1:
     st.markdown("", unsafe_allow_html=True)
     st.image('images/myphoto.jpg', width=250)
 with col2:
-    st.markdown("<br><br><br><br><br>",unsafe_allow_html=True) #linespacing
+    st.markdown("<br><br>",unsafe_allow_html=True) #linespacing
     st.title("Venkatesh Jajula")
     desc="""
     Hey! I am venkatesh_jajula from India. I graduated in 2022 in computer science from JNTU Kakinada.
