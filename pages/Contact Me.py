@@ -1,6 +1,6 @@
 import streamlit as st
 import mailing
-
+#github deployed failed may be for pages folder name starts with lowercase
 
 st.title("Contact Me")
 
