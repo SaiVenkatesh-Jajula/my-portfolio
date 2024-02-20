@@ -44,7 +44,7 @@ for i in range(1,len(data),2):
             title2=data[i+1][0]
             description2 = data[i+1][1]
             currentimg2=data[i+1][3]
-            url2 = data[i][2]
+            url2 = data[i+1][2]
             st.title(title2)
             st.write(description2)
             st.image(f"images/{currentimg2}",width=350)
