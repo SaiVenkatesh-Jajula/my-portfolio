@@ -2,14 +2,15 @@ import streamlit as st
 import csv
 import pandas
 #pandas was installed along with streamlit
-# st.set_page_config(layout="wide")
+st.set_page_config(layout="wide")
 
 col1, col2 = st.columns(2)
 
 with col1:
+    st.markdown("", unsafe_allow_html=True)
     st.image('images/myphoto.jpg', width=250)
 with col2:
-    st.markdown("<br>",unsafe_allow_html=True) #linespacing
+    st.markdown("<br><br><br>",unsafe_allow_html=True) #linespacing
     st.title("Venkatesh Jajula")
     desc="""
     Hey! I am venkatesh_jajula from India. I graduated in 2022 in computer science from JNTU Kakinada.
@@ -21,7 +22,7 @@ with col2:
 content="""
 Below you can find some of the apps I have built in python. Feel free to contact me!
 """
-st.write(content)
+st.write(f"<b>{content}</b>",unsafe_allow_html=True)
 
 #COMPONENTS FETCHING
 with open("data.csv",'r') as file:
