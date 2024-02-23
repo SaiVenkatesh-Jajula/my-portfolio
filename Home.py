@@ -13,9 +13,9 @@ with col2:
     st.markdown("<br><br>",unsafe_allow_html=True) #linespacing
     st.title("Venkatesh Jajula")
     desc="""
-    Hey! I am venkatesh_jajula from India. I graduated in 2022 in computer science from JNTU Kakinada.
-    Basically I am a Python Developer as well as Azure Cloud Administrator.
-    Also have server level administration experience. Currently looking for work in the role of Python Developer!...
+    Hello! I'm Venkatesh Jajula from India. I earned my degree in Computer Science from JNTU Kakinada in 2022. 
+    I specialize in Python development and serve as an Azure Cloud Administrator with expertise in 
+    server-level administration. Actively seeking opportunities in the role of a Python Developer. Let's connect!
     """
     st.info(desc)
 
