@@ -5,3 +5,5 @@ PDF Templates,A script that generates PDF templates of multiple pages given some
 PDF Invoices,A script that reads invoice records from Excel files and automatically generates PDF invoices.,https://github.com/SaiVenkatesh-Jajula/Invoice-Generator,4.png
 Tech News Email,Daily News Email Digest gets data from a news API and scheduled sending that News to Email daily.,https://github.com/SaiVenkatesh-Jajula/News_API_Gmail,5.png
 Weather API,A REST API built with Python and Flask to serve historical weather data for various cities.,https://github.com/SaiVenkatesh-Jajula/Historical-Weather-API,6.png
+Weather Forecast,A data web app that visualizes the weather forecast for the next five days of any city.,https://github.com/SaiVenkatesh-Jajula/Weather-Forecast,16.png
+
