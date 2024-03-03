@@ -2,7 +2,7 @@ import streamlit as st
 import csv
 import pandas
 #pandas was installed along with streamlit
-# st.set_page_config(layout="wide")
+st.set_page_config(page_title="My Portfolio", page_icon='favicon.ico')
 
 col1, col2 = st.columns(2)
 
