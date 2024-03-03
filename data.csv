@@ -8,5 +8,7 @@ Weather API,A REST API built with Python and Flask to serve historical weather d
 Weather Forecast,A data web app that visualizes the weather forecast for the next five days of any city.,https://github.com/SaiVenkatesh-Jajula/Weather-Forecast,16.png
 NLP of eBook,Natural Language Processing on eBook by utilizing regular expressions and sentiment analysis.,https://github.com/SaiVenkatesh-Jajula/NLP-of-Ebook,NLP.jpg
 Event Scraper,A program that checks a music band's website and sends an email when there are new tours.,https://github.com/SaiVenkatesh-Jajula/Event-Scraper,8.png
+Campus Flow,A desktop PyQt6 GUI app for managing university student data with an SQL database backend.,https://github.com/SaiVenkatesh-Jajula/StudentManagementSystem_GUI_mysql,17.png
+
 
 
