@@ -11,6 +11,8 @@ Event Scraper,A program that checks a music band's website and sends an email wh
 Campus Flow,A desktop PyQt6 GUI app for managing university student data with an SQL database backend.,https://github.com/SaiVenkatesh-Jajula/StudentManagementSystem_GUI_mysql,17.png
 Open Domain Chatbot,A chatbot powered by AI: capable of engaging in discussions on any topic with users.,https://github.com/SaiVenkatesh-Jajula/AI-Bot-GUI,10.png
 Job Application Form,An application form that receives submissions from users utilizing both Flask and Django frameworks.,https://github.com/SaiVenkatesh-Jajula/Job-Application-Form,emp.jpg
+Restaurant Menu Web App,A Django web app to let customers see a restaurant menu and meal availability.,https://github.com/SaiVenkatesh-Jajula/Restaurant-Menu,19.png
+
 
 
 
